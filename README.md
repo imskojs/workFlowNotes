@@ -83,3 +83,16 @@ primary-button(left side button), or
 title bar / content.  
 
 Note: Rule of thumb indicates one of seperate states, abstract states, or stateParams must be used for above situations but which one to use depends on situations that maybe obvious. 
+
+
+# CSS
+## width, margin-left, margin-right, padding-left, padding-right
+use .col .col-x% when possible otherwise use vw.  
+.col within in .col calculate by 0.innerCol%relativeToView / 0.outerCol%RelativeToView
+
+## height
+Use vw
+
+## margin-top, margin-bottom
+Use vh
+
