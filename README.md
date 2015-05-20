@@ -76,4 +76,10 @@ eg)
 ### Why
 For more consistent, more logical, MOREEEEE state driven development.
 
+## When to use abstarct states, seperate states, and/or stateParams.
+Rule of thumb: If any of following for headerbar, and/or sub-headerbar changes;    
+background styling, 
+primary-button(left side button), or  
+title bar / content.  
 
+Note: Rule of thumb indicates one of seperate states, abstract states, or stateParams must be used for above situations but which one to use depends on situations that maybe obvious. 
