@@ -1,17 +1,20 @@
 #Angular
 ## Folder structure
 ### What
-Make a folder for every abstract state.  
+Make a folder for every abstract state.
+If controller is going to be needed for certain state add it here in `.config` rather than adding it on elements on html.
 eg) for;
 ```js
   .state('init', {
     abstract: true,
     url: '/init',
     templateUrl: "states/init/init.html",
+    controller: 'init'
   })
     .state('init.login', {
       url: '/login',
-      templateUrl: "states/init/init-login.html"
+      templateUrl: "states/init/init-login.html",
+      controller: 'init.login'
     })
     .state('init.anotherAbs', {
       abstract: true,
@@ -22,7 +25,8 @@ eg) for;
 Note we have folder named `init` which is the same name as state `init`.  
 Note also indentations, and folder name `states` instead of `views`
 ### Why
-`views/`, `css/`, and `js/` folder structure sux.
+`views/`, `css/`, and `js/` folder structure sux.  
+writing `ng-controller="MainController"` in arbitrary element sux. There are many directives to add for cetain element and controller is usually used to manipulate certain view not arbitrary element that contains view elements. Only other directives should be added to view elements.
 
 
 ## File and variable naming.
