@@ -33,9 +33,9 @@ writing `ng-controller="MainController"` in arbitrary element sux. There are man
 
 ## File and variable naming.
 ### What
-Name folders with lower camelcase for abstract states.
-eg)
-for `.state('init',{abstract: true, ...})`
+Name folders with lower camelcase for abstract states.  
+eg)  
+for `.state('init',{abstract: true, ...})` make a folder and file: `states/init/init.html`
 
 Name HTML file names, css class/id names using snakecase according to state name.
 eg)
