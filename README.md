@@ -9,17 +9,18 @@ eg) for;
     url: '/init',
     templateUrl: "states/init/init.html",
   })
-  .state('init.login', {
-    url: '/login',
-    templateUrl: "states/init/init-login.html"
-  })
+    .state('init.login', {
+      url: '/login',
+      templateUrl: "states/init/init-login.html"
+    })
     .state('init.anotherAbs', {
       abstract: true,
       url: '/anotherAbs',
       templateUrl: "states/init/anotherAbs/anotherAbs.html"
     })
 ```
-Note we have folder named `init` which is the same name as state `init`.
+Note we have folder named `init` which is the same name as state `init`.  
+Note also indentation
 ### Why
 `views/`, `css/`, and `js/` folder structure sux.
 
