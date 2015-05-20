@@ -24,7 +24,7 @@ eg) for;
 ```
 Note we have folder named `init` which is the same name as state `init`.  
 Note also indentations, and folder name `states` instead of `views`.  
-...Note... Controller is saved in the same folder as templateUrl.
+...Note... Controller is saved in the same folder as templateUrl. eg) `states/init/init-login.js`
 
 ### Why
 `views/`, `css/`, and `js/` folder structure sux.  
