@@ -1,12 +1,14 @@
 #Angular
-## File naming and variable names
-### What
-Name HTML files as though they are views itself.
-eg) main.html, main-subpage1.html
-Name JS files as though they are controllers itself
-eg) main.js / main,  main.subpage1.js / main.subpage1
+## File naming and variable names.
+Name HTML file names, css class/id names using snakecase according to state name.
+eg) for `.state(main.sub1)`, name files: `main-sub1.html`, name id attribute: `id="main-sub1"`
+Name Controllers using dot notation in same format and according to state name.
+eg) for `.state(main.sub2.sub3)`, name controller: `.controller('main.sub2.sub3', ...)`
+Name JS variable names using lower camelcase.
+eg) `var thisIsAnotherVariable = 1223132;`
+Name Service/Factory/Directive names using proper camelcase.
+eg) `.factory(MyAwesomeUtilityFunctions, ...)`
 ### Why
-Normally people name controller files as for example "mainController.js" / "MainController" that's just unnecessarily long, and by using . notation and lowercases only we can consistently assume names with that format is a controller.
-
+For consistent, more logical state driven development.
 
 
