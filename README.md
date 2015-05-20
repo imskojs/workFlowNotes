@@ -23,7 +23,9 @@ eg) for;
     })
 ```
 Note we have folder named `init` which is the same name as state `init`.  
-Note also indentations, and folder name `states` instead of `views`
+Note also indentations, and folder name `states` instead of `views`.
+...Note... Controller is saved in the same folder as templateUrl.
+
 ### Why
 `views/`, `css/`, and `js/` folder structure sux.  
 writing `ng-controller="MainController"` in arbitrary element sux. There are many directives to add for cetain element and controller is usually used to manipulate certain view not arbitrary element that contains view elements. Only other directives should be added to view elements.
