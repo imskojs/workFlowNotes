@@ -20,7 +20,7 @@ eg) for;
     })
 ```
 Note we have folder named `init` which is the same name as state `init`.  
-Note also indentation
+Note also indentations, and folder name `states` instead of `views`
 ### Why
 `views/`, `css/`, and `js/` folder structure sux.
 
