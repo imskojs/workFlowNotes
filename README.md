@@ -20,6 +20,8 @@ eg) for;
     })
 ```
 Note we have folder named `init` which is the same name as state `init`.
+### Why
+`views/`, `css/`, and `js/` folder structure sux.
 
 
 ## File and variable naming.
