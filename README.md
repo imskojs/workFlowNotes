@@ -97,4 +97,4 @@ Use vw
 Use vh
 
 ## top, bottom
-Use vw,  do not use vh because containing element may change in height depending on the content which will cause absolutely or relatively positioned element to be at unexpected location.
+Use vw,  do not use `vh` or `%` because containing element may change in height depending on the content which will cause absolutely or relatively positioned element to be at unexpected location.
