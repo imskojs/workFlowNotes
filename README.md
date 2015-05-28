@@ -98,3 +98,7 @@ Use vh
 
 ## top, bottom
 Use vw,  do not use `vh` or `%` because containing element may change in height depending on the content which will cause absolutely or relatively positioned element to be at unexpected location.
+
+## background
+When using background with opacity always use rgba(<r>, <g>, <b>, <opacity>); Designer should specify color and opacity of the designed background in rgba format
+
